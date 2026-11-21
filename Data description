@@ -1,0 +1,56 @@
+### Training Dataset Features
+
+The training dataset contains demographic, anthropometric, clinical, laboratory, lifestyle, sleep-related, and health-related variables. The descriptions of the variables are provided below.
+
+| Variable | Description |
+|---|---|
+| `RIDAGEYR` | Age in years |
+| `RIAGENDR` | Gender |
+| `RIDRETH3` | Race and Hispanic origin |
+| `DMDEDUC2` | Education level |
+| `INDFMPIR` | Family income-to-poverty ratio |
+| `BMXWT` | Body weight (kg) |
+| `BMXHT` | Standing height (cm) |
+| `BMXBMI` | Body mass index (BMI) |
+| `BMXWAIST` | Waist circumference (cm) |
+| `BMXARMC` | Mid-upper arm circumference (cm) |
+| `BPQ020` | History of hypertension |
+| `BPQ080` | History of high cholesterol |
+| `LBXIN` | Fasting insulin level |
+| `LBDHDD` | HDL cholesterol level |
+| `LBXTC` | Total cholesterol level |
+| `LBXSAL` | Serum albumin level |
+| `LBXSATSI` | Serum alanine aminotransferase (ALT) level |
+| `LBXSASSI` | Serum aspartate aminotransferase (AST) level |
+| `LBXSGTSI` | Serum gamma-glutamyl transferase (GGT) level |
+| `LBXSAPSI` | Serum alkaline phosphatase level |
+| `LBXSCR` | Serum creatinine level |
+| `LBXBU` | Blood urea nitrogen level |
+| `LBXSUA` | Serum uric acid level |
+| `LBXTR` | Triglyceride level |
+| `LBDLDLN` | LDL cholesterol level |
+| `URDACT` | Urinary albumin-to-creatinine ratio |
+| `LBXWBCSI` | White blood cell count |
+| `LBXRBCSI` | Red blood cell count |
+| `LBXHGB` | Hemoglobin level |
+| `LBXMCVSI` | Mean corpuscular volume |
+| `LBXRDW` | Red cell distribution width |
+| `LBXPLTSI` | Platelet count |
+| `ALQ121` | Frequency of alcohol consumption in the past 12 months |
+| `PAQ605` | Vigorous work-related physical activity |
+| `PAQ620` | Moderate work-related physical activity |
+| `PAQ635` | Walking or bicycling for transportation |
+| `PAQ650` | Vigorous recreational physical activity |
+| `PAQ665` | Moderate recreational physical activity |
+| `PAD680` | Daily sedentary activity time (minutes) |
+| `DBQ700` | Self-reported diet quality |
+| `SLD012` | Sleep duration on weekdays or workdays |
+| `SLD013` | Sleep duration on weekends or non-workdays |
+| `KIQ022` | History of weak or failing kidneys |
+| `Diabetes` | Target variable indicating prediabetes or diabetes status |
+| `SBP_MEAN` | Mean systolic blood pressure |
+| `DBP_MEAN` | Mean diastolic blood pressure |
+| `Smoking_Status` | Smoking status |
+| `UACR` | Urinary albumin-to-creatinine ratio |
+
+**Note:** `Diabetes` is the target variable, while the remaining variables are used as predictors. `SBP_MEAN`, `DBP_MEAN`, and `Smoking_Status` are derived variables. `URDACT` and `UACR` should be checked against the data-processing code to confirm whether they represent separate variables or duplicate measurements.
